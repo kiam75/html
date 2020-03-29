@@ -1,6 +1,15 @@
-body{
-    background-color: #94ceca;
+
+/***************
+ Tag Selectors
+ ***************/
+html{
+    background: url("../bilder/Harly_02.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
+
 hr{
     border-style: none;
     border-top-style: dotted;
@@ -12,6 +21,51 @@ h1 {
     color: #7f78d2;
 }
 
-thead{
-    color: chocolate;
+img:hover{
+    background-color: burlywood;
 }
+thead{
+    background-color: chocolate;
+}
+
+p {
+    color: dodgerblue;
+}
+/*
+img {
+
+background-color: transparent;
+}
+*/
+label {
+    color: dodgerblue;
+}
+
+/***************
+ Class Selectors
+ **************/
+
+.joker {
+    background-color: transparent;
+} 
+
+.bat {
+    background-color: black;
+}
+.circular {
+    border-radius: 100%;
+}
+
+
+/*************
+ID Selectors
+*************/
+
+#heading {
+    color: blue;
+}
+
+#p_spezial {
+color: blueviolet;    
+}
+
